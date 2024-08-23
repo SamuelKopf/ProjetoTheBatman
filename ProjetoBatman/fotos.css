@@ -14,6 +14,7 @@ header{
     justify-content: space-around;
     align-items: center;
     background-color: black;
+    margin-bottom: 115px;
 }
 
 nav{
@@ -46,7 +47,144 @@ li:hover{
     height: auto;
 }
 
+.paiPersonagem{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.divPersonagens{
+    width: 30%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
 
+.personagens{
+    width: 100%;
+    height: 150px;
+    background-size: cover;
+    background-position: 50% 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 80px 0;
+    color: aliceblue;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    text-align: center;
+    font-size: 36px;
+}
+.batLogo{
+    background-image: image-set('./Midias/batLogo.png');
+}
+
+.actorCardsContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.cardsContent{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.card{
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: white;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.card:hover{
+    transform: scale(1.02);
+}
+
+.banner1{
+    background-image: url('https://noticiasdatv.uol.com.br/media/uploads/artigos_2021/batman-robert-pattinson-foto-divulgacao-warner-bros.jpg');
+}
+.banner2{
+    background-image: url('https://i.pinimg.com/236x/3c/a6/28/3ca6282ac5440b49f0008981ad151512.jpg');
+}
+.banner3{
+    background-image: url('https://preview.redd.it/opinions-on-jeffrey-wrights-gordon-v0-l617izc155sb1.png?auto=webp&s=d86970095d58cf4443cf974ced11c68dd31e93bf');
+}
+.banner4{
+    background-image: url('https://img.odcdn.com.br/wp-content/uploads/2022/02/Charada-em-The-Batman.jpg');
+}
+.banner5{
+    background-image: url('https://p2.trrsf.com/image/fget/cf/1200/1600/middle/images.terra.com/2023/04/12/1797866254-the-batman-penguin-pinguim.jpg');
+}
+
+
+
+.cenariosCardsContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cenariosContent{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.cenario{
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.cenario:hover{
+    transform: scale(1.02);
+}
+
+.bannerC1{
+    background-image: url('https://i.ytimg.com/vi/rsQEor4y2hg/maxresdefault.jpg');
+}
+.bannerC2{
+    background-image: url('https://d2d7ho1ae66ldi.cloudfront.net/ArquivoNoticias/642727b3-4fe1-11ed-aa6e-9587410378a2/FfcthE8X0AEUMSs.jpg');
+}
+.bannerC3{
+    background-image: url('https://d2d7ho1ae66ldi.cloudfront.net/ArquivoNoticias/bbdbb180-997f-11ec-aa6e-9587410378a2/the-batman-top-5.jpeg');
+}
+.bannerC4{
+    background-image: url('https://tm.ibxk.com.br/2022/03/07/07100658735068.jpg?ims=1200xorig');
+}
+.bannerC5{
+    background-image: url('https://sm.ign.com/t/ign_br/screenshot/default/batman-2022_p84z.1200.jpg');
+}
+.bannerC6{
+    background-image: url('https://cdn.ome.lt/nQvL7VGZze-eWKVIIh4QSBhSKuM=/1200x630/smart/extras/conteudos/the-batman-tem-cena-pos-creditos.jpg');
+}
+
+
+.cenarios{
+    color: aliceblue;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    text-align: center;
+    font-size: 36px;
+    margin-top: 150px;
+}
 
 footer{
     height: 200px;
@@ -56,9 +194,7 @@ footer{
     align-items: center;
     justify-content: space-around;
     background-color: black;
-    position: absolute;
-    bottom: 0%;
-    width: 100%;
+    margin-top: 115px;
 }
 
 span{
