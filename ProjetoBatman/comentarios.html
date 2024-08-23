@@ -4,8 +4,90 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Comentários</title>
+        <link rel="stylesheet" href="./comentarios.css">
     </head>
     <body>
-        Comentários
+        <header>
+            <img id="logo" src="./Midias/batmanLogo.webp">
+            <nav>
+                <ul>
+                    <a href="./index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="./contato.html">
+                        <li>Contato</li>
+                    </a>
+                    <a href="./fotos.html">
+                        <li>Fotos</li>
+                    </a>
+                    <a href="./comentarios.html">
+                        <li>Comentários</li>
+                    </a>
+                </ul>
+            </nav>
+        </header>
+
+        <div id="commentsDiv">
+            <div class="comments">
+                COMENTÁRIOS
+            </div>
+            <div class="boxComments">
+                <img class="imgIcon" src="./Midias/icon1.png" alt="">
+                <div class="comentarioDiv">                    
+                    <div class="commentName">Felix Wilson</div>
+                    <div class="comentario">Um bom filme, porém esperava mais, achei que tinha potencial para ser melhor do que foi.</div>
+                </div>
+            </div>
+            <div class="boxComments">
+                <img class="imgIcon" src="./Midias/icon2.png" alt="">
+                <div class="comentarioDiv">
+                    <div class="commentName">Jake Peralta</div>
+                    <div class="comentario">Caramba que filme maneiro, muito boas cenas de ação e bem dramático, simplesmente incrível!</div>
+                </div>
+            </div>
+            <div class="boxComments">
+                <img class="imgIcon" src="./Midias/icon3.png" alt="">
+                <div class="comentarioDiv">
+                    <div class="commentName">Walter White</div>
+                    <div class="comentario">Me surpreendeu, um excelente filme, principalmente a atuação de Robert Pattison, simplemente perfeita.</div>
+                </div>
+            </div>
+            
+            <div class="inputComment">
+                <form action="./comentarios.html" style="background-color: black;">
+                    <div class="emailName">                        
+                        <input class="inputMsg" type="text" name="nome" id="nome" placeholder="Nome">
+                        <input class="inputMsg" type="email" name="email" id="email" placeholder="Email">
+                    </div>
+                    <textarea name="mensagem" id="mensagem" placeholder="Digite sua mensagem"></textarea><br>
+                    <button>COMENTAR<img style="margin: 2px 0 0 3px;" width="12" height="12" src="https://img.icons8.com/material-outlined/24/sent.png" alt="sent"/></button>
+                </form>
+            </div>
+
+        </div>
+
+        <footer>
+            <img style="object-fit: contain;" id="logo" src="./Midias/batmanLogo.webp">
+            <span>Todos os direitos reservados ©</span>
+            <span>Desenvolvido por: Samuel Kopf</span> 
+
+            <nav class="footerNavigation">
+                <ul class="footerList">
+                    <a href="./index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="./contato.html">
+                        <li>Contato</li>
+                    </a>
+                    <a href="./fotos.html">
+                        <li>Fotos</li>
+                    </a>
+                    <a href="./comentarios.html">
+                        <li>Comentários</li>
+                    </a>
+                </ul>
+            </nav>
+        </footer>
+
     </body>
 </html>
